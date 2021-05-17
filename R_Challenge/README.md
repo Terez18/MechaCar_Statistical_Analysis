@@ -26,9 +26,21 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![lot_summary.PNG](lot_summary.PNG)
 
 
+## T-Tests on Suspension Coils
+The results of the t-tests are: for all lots together, the p-value=0.06028 for a 95% confidence interval, this means that the population mean is not significantly different than the lots mean. But if it was smaller than 0.05 it would be significant. When looking at each of the lots separately, the p-value for lot1=1. This basically means that the means of the sample and the population are essentially the same. The p-value for lot2=0.6072 so we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. The p-value for lot3= 0.04168. Assuming a confidence interval of 95%, there is a significant difference between the two means. In lot3 we reject the null hypothesis. 
 
 
+### Resuts of t-test for All Lots
+![all_lots.PNG](all_lots.PNG)
 
+### Resuts of t-test for Lot 1
+![psi_lot1.PNG](psi_lot1.PNG)
+
+### Resuts of t-test for Lot 2
+![psi_lot2.PNG](psi_lot2.PNG)
+
+### Resuts of t-test for Lot 3
+![psi_lot3.PNG](psi_lot3.PNG)
 
 
 
