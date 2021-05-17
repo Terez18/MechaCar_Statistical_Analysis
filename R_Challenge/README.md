@@ -1,5 +1,12 @@
 # MechaCar_Statistical_Analysis
 
+---
+
+### Link to R code
+![MechaCarChallenge.R](MechaCarChallenge.R)
+
+---
+
 ## Linear Regression to Predict MPG
 
 The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle length p value = 2.60e-12, and ground clearance p value = 5.21e-08 and questionably vehicle weight p value = 0.0776. This means that the relationship between each of these variables and mpg is significant.  
@@ -13,6 +20,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 ### Results of Linear Regression
 ![deliverable_1_results.PNG](deliverable_1_results.PNG)
 
+---
 
 ## Summary Statistics on Suspension Coils
 
@@ -25,6 +33,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Resuts of Lot Summary Statistics on Suspension Coils
 ![lot_summary.PNG](lot_summary.PNG)
 
+---
 
 ## T-Tests on Suspension Coils
 The results of the t-tests are: for all lots together, the p-value=0.06028 for a 95% confidence interval, this means that the population mean is not significantly different than the lots mean. But if it was smaller than 0.05 it would be significant. When looking at each of the lots separately, the p-value for lot1=1. This basically means that the means of the sample and the population are essentially the same. The p-value for lot2=0.6072 so we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. The p-value for lot3= 0.04168. Assuming a confidence interval of 95%, there is a significant difference between the two means. In lot3 we reject the null hypothesis. 
@@ -41,6 +50,21 @@ The results of the t-tests are: for all lots together, the p-value=0.06028 for a
 
 ### Resuts of t-test for Lot 3
 ![psi_lot3.PNG](psi_lot3.PNG)
+
+---
+
+
+## Study Design: MechaCar vs Competition
+
+A study to compare MechaCar to their competition I chose a two-sample t-test to compare the cost of the cars of each company throughout the US. The independent variable would be the car company: this is a dichotomous data type: sample A=MechaCar, sample B=competition company. The dependent variable would be the price. This is a continuous variable. 
+ 
+The null hypothesis would be that there is no statistical difference between the price of the cars in company A to the price of the cars in company B in different locations in the US. With a confidence interval of 95%, if the p-value is lower than 0.05, there would be a significant difference in price between the companies. 
+
+The reason I would use a two-sample t-test is because I am trying to find out whether there is a significant difference in price of cars between the companies. Each company data would be one sample.  
+
+The data needed to run the test is the price of the cars in company A vs. the price of the cars in company B in different locations throughout the US.
+
+
 
 
 
