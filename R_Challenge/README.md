@@ -10,8 +10,21 @@ The slope of the linear model is not zero. Since there is a significant linear r
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
  We use the r-squared value of the model to determine if the model sufficiently predicts our dependent variable. Here the r-squared value equals 0.7149. This means that there is about a 70% chance that future data points will fit the linear model. This is not perfect but also it is prety good. There may be other variables that were not included in this analysis that would explain the rest of the behavior that this model does not predict. 
 
-## Link to image of results on RStudio
+### Results of Linear Regression
 ![deliverable_1_results.PNG](deliverable_1_results.PNG)
+
+
+## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for two out of the 3 manufacturing lots. The variance for lot 1 is 0.9795918. The variance for lot 2 is 7.4693878. Both very low meaning that the manufacturing process is consistent for lot 1 and lot 2. However, lot 3 the variance is large. it is 170.2861224. It exceeds the design specifications aand it means that the manufacturing process is not consistent for lot 3. When looking at the total variance for all lots together, the variance is 62.29356. This meets the design specifications. It is lower than 100 pounds per square inch. 
+
+
+### Resuts of Total Summary Statistics on Suspension Coils
+![total_summary.PNG](total_summary.PNG)
+
+### Resuts of Lot Summary Statistics on Suspension Coils
+![lot_summary.PNG](lot_summary.PNG)
+
 
 
 
